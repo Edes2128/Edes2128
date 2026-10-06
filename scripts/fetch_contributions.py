@@ -47,6 +47,10 @@ for weekday, tr in enumerate(rows):
         days.append({"date": date, "count": count, "level": max(0, min(4, level)), "week": week, "weekday": weekday})
 
 days.sort(key=lambda d: (d["week"], d["weekday"]))
+previous = json.loads(OUT.read_text()) if OUT.exists() else {}
+if previous.get("username") == USER and previous.get("days") == days:
+    print(f"Contribution data unchanged for {USER}; left {OUT.name} as-is")
+    raise SystemExit(0)
 payload = {
     "username": USER,
     "generated_at": datetime.now(timezone.utc).isoformat(),
