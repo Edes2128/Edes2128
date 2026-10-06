@@ -1,0 +1,15 @@
+{
+  "github_username": "Edes2128",
+  "name": "Your Name",
+  "headline": "Full Stack Developer",
+  "location": "Albania",
+  "experience": "7+ years",
+  "website": "https://example.com",
+  "social": {"github":"https://github.com/Edes2128","linkedin":"https://www.linkedin.com/in/edes-sulce/","instagram":""},
+  "stack": ["React","React Native","TypeScript","Node.js","Express","PostgreSQL","Redis","Three.js","Blender"],
+  "projects": [
+    {"name":"Pole Apex","description":"F1 league management SaaS","url":"https://www.poleapex.com"},
+    {"name":"Lulelu","description":"Digital commerce platform","url":"https://lulelu.store"}
+  ],
+  "theme": {"background":"#090d0b","panel":"#0d1411","text":"#d7e2dc","muted":"#718078","accent":"#65d18b","accent2":"#2d8a55","grid":"#17231c"}
+}

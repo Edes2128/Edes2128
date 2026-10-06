@@ -1,0 +1,33 @@
+name: Update profile artwork
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+concurrency:
+  group: profile-artwork
+  cancel-in-progress: true
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: python -m pip install -r scripts/requirements.txt
+      - name: Fetch contributions
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/fetch_contributions.py
+      - name: Generate SVGs
+        run: python scripts/generate_all.py
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: refresh profile artwork"
+          file_pattern: "data/contributions.json generated/*.svg"
