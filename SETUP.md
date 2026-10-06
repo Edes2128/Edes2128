@@ -19,6 +19,6 @@ python scripts/generate_all.py
 7. In GitHub: Settings → Actions → General → Workflow permissions → Read and write permissions.
 8. Run **Actions → Update profile artwork → Run workflow** once.
 
-The workflow then refreshes the contribution graph daily. It uses GitHub's public contribution calendar HTML, so no personal access token is required.
+The workflow then refreshes the contribution graph daily. It uses GitHub's public contribution calendar, including the tooltip text for each day, so no personal access token is required. Square color follows the real count: a day with zero contributions stays empty.
 
 If GitHub changes the contribution-calendar HTML, update the selectors in `scripts/fetch_contributions.py`.

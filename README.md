@@ -1,40 +1,32 @@
-<div align="center">
+<p align="center">
+  <img src="./generated/banner.svg" alt="Edes Sulce profile picture" width="960">
+</p>
 
-# `YOUR_NAME`
+<p align="center">
+  <a href="https://github.com/Edes2128"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Edes2128-0c1830?style=flat-square&logo=github&logoColor=4da3ff&labelColor=05070d&color=0c1830"></a>
+  <a href="https://www.linkedin.com/in/edes-sulce/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-edes--sulce-0c1830?style=flat-square&logo=linkedin&logoColor=4da3ff&labelColor=05070d&color=0c1830"></a>
+  <a href="https://linktr.ee/edes_sulce"><img alt="Website" src="https://img.shields.io/badge/Website-linktr.ee-0c1830?style=flat-square&logo=linktree&logoColor=4da3ff&labelColor=05070d&color=0c1830"></a>
+  <a href="https://x.com/sulce28"><img alt="X" src="https://img.shields.io/badge/X-@sulce28-0c1830?style=flat-square&logo=x&logoColor=4da3ff&labelColor=05070d&color=0c1830"></a>
+</p>
 
-### `Full Stack Developer`
+<p align="center">
+  <img src="./generated/contrib-heatmap.svg" alt="GitHub contribution graph for the last year" width="960">
+</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-111?style=flat-square&logo=github)](https://github.com/YOUR_GITHUB_USERNAME)
-[![Website](https://img.shields.io/badge/Website-111?style=flat-square&logo=google-chrome)](https://example.com)
+<p align="center">
+  <img src="./generated/info-card.svg" alt="Stack and selected work" width="960">
+</p>
 
-</div>
+## Projects
 
-<p align="center"><img src="./generated/contrib-heatmap.svg" alt="Animated GitHub contribution graph" width="860"></p>
-
-<table><tr><td valign="top" width="42%"><img src="./generated/ascii-portrait.svg" alt="Animated ASCII portrait" width="100%"></td><td valign="top"><img src="./generated/info-card.svg" alt="Developer information" width="100%"></td></tr></table>
-
----
-
-## `~/projects`
-
-| Project | Description |
+| Project | What it is |
 |---|---|
 | **[Pole Apex](https://www.poleapex.com)** | F1 league management SaaS |
 | **Holy Earth** | Interactive 3D faith world |
-| **Lulelu** | Digital commerce platform |
+| **[Lulelu](https://lulelu.store)** | Digital commerce platform |
 
-## `~/stack`
+## Stack
 
-```text
-Frontend     React · React Native · TypeScript
-Backend      Node.js · Express
-Data         PostgreSQL · Redis
-3D           Three.js · Blender
-Infrastructure Docker · Linux · Cloudflare · Vercel
-```
+`React` · `React Native` · `TypeScript` · `Node.js` · `Express` · `PostgreSQL` · `Redis` · `Three.js` · `Blender`
 
-## `~/about`
-
-I build web applications, developer tools, SaaS products and interactive 3D experiences.
-
-<p align="center">`$ echo "keep building."`</p>
+`Docker` · `Linux` · `Cloudflare` · `Vercel`

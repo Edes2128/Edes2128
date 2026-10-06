@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="650" height="320" viewBox="0 0 650 320"><style>.bg{fill:#0d1411}.frame{fill:none;stroke:#718078;opacity:.55}.title{font:600 12px monospace;fill:#65d18b}.prompt{font:11px monospace;fill:#718078}.key{font:600 11px monospace;fill:#65d18b}.value{font:11px monospace;fill:#d7e2dc}.links{font:8px monospace;fill:#718078}.cursor{fill:#65d18b;animation:blink 1s steps(2) infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style><rect class="bg" width="100%" height="100%" rx="8"/><rect class="frame" x=".5" y=".5" width="649" height="319" rx="8"/><text x="32" y="30" class="title">╭─ system information</text><text x="32" y="51" class="prompt">$ whoami</text><text x="90" y="51" class="value">Your Name</text><rect x="207" y="42" width="7" height="12" class="cursor"/><line x1="32" y1="65" x2="618" y2="65" stroke="#17231c"/><text x="32" y="88" class="key">user</text><text x="145" y="88" class="value">Your Name</text><text x="32" y="123" class="key">role</text><text x="145" y="123" class="value">Full Stack Developer</text><text x="32" y="158" class="key">location</text><text x="145" y="158" class="value">Albania</text><text x="32" y="193" class="key">experience</text><text x="145" y="193" class="value">7+ years</text><text x="32" y="228" class="key">github</text><text x="145" y="228" class="value">YOUR_GITHUB_USERNAME</text><text x="32" y="263" class="key">stack</text><text x="145" y="263" class="value">React · React Native · TypeScript · Node.js · Express · PostgreSQL · Redis · Three.js · Blender</text><line x1="32" y1="286" x2="618" y2="286" stroke="#17231c"/><text x="32" y="305" class="links">https://github.com/YOUR_GITHUB_USERNAME   https://www.linkedin.com/in/YOUR_LINKEDIN/</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="248" viewBox="0 0 960 248">
+<style>
+  .bg { fill: #080d18; }
+  .frame { fill: none; stroke: #163056; }
+  .kicker { font: 600 11px ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif; letter-spacing: 1.8px; fill: #4da3ff; }
+  .about { font: 16px ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif; fill: #e8f1ff; }
+  .chip { font: 12px ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif; fill: #9fd4ff; }
+  .project { font: 600 15px ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif; fill: #e8f1ff; }
+  .desc { font: 12px ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif; fill: #7f90ad; }
+  .bar { transform-origin: 596px 36px; animation: grow 1s ease forwards; }
+  @keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+  @media (prefers-reduced-motion: reduce) { .bar { animation: none; } }
+</style>
+<rect class="bg" width="100%" height="100%" rx="16"/>
+<rect class="frame" x="0.5" y="0.5" width="959" height="247" rx="16"/>
+<rect x="0" y="0" width="4" height="248" fill="#4da3ff"/>
+<text x="36" y="40" class="kicker">NOW</text>
+<text x="36" y="68" class="about">I build web applications, developer tools, SaaS products and</text><text x="36" y="90" class="about">interactive 3D experiences.</text>
+<text x="36" y="122" class="kicker">STACK</text>
+<rect x="36.0" y="132" width="63.0" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="48.0" y="149" class="chip">React</text><rect x="107.0" y="132" width="120.4" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="119.0" y="149" class="chip">React Native</text><rect x="235.4" y="132" width="104.0" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="247.4" y="149" class="chip">TypeScript</text><rect x="347.4" y="132" width="79.4" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="359.4" y="149" class="chip">Node.js</text><rect x="434.8" y="132" width="79.4" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="446.8" y="149" class="chip">Express</text><rect x="36.0" y="166" width="104.0" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="48.0" y="183" class="chip">PostgreSQL</text><rect x="148.0" y="166" width="63.0" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="160.0" y="183" class="chip">Redis</text><rect x="219.0" y="166" width="87.6" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="231.0" y="183" class="chip">Three.js</text><rect x="314.6" y="166" width="79.4" height="26" rx="13" fill="#0c1830" stroke="#1d4ed8"/><text x="326.6" y="183" class="chip">Blender</text>
+<line class="bar" x1="596" y1="36" x2="596" y2="212" stroke="#163056"/>
+<text x="620" y="40" class="kicker">SELECTED WORK</text>
+<text x="620" y="78" class="project">Pole Apex</text><text x="620" y="96" class="desc">F1 league management SaaS</text><text x="620" y="126" class="project">Holy Earth</text><text x="620" y="144" class="desc">Interactive 3D faith world</text><text x="620" y="174" class="project">Lulelu</text><text x="620" y="192" class="desc">Digital commerce platform</text>
+</svg>

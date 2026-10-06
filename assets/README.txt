@@ -1,2 +1,2 @@
-Put your portrait here as portrait.jpg or portrait.png.
-Then run prep_photo.py to create source-prepped.png.
+Profile picture: assets/profile.png
+The banner embeds this file. Replace it, then run python scripts/make_banner.py.
