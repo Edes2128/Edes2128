@@ -1,7 +1,7 @@
 # Setup
 
 1. Create a public GitHub repository named exactly your GitHub username.
-2. Edit `profile.json` with your real identity, links, stack and projects.
+2. Edit `profile.json` with your real identity, links, and stack.
 3. Put your photo at `assets/portrait.jpg` if you want the ASCII portrait.
 4. Install dependencies and generate the portrait:
 
