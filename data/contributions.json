@@ -1,6 +1,6 @@
 {
   "username": "Edes2128",
-  "generated_at": "2026-10-12T15:36:08.369674+00:00",
+  "generated_at": "2026-10-13T14:18:33.646910+00:00",
   "days": [
     {
       "date": "2025-10-12",
@@ -1069,7 +1069,7 @@
     {
       "date": "2026-03-13",
       "count": 9,
-      "level": 2,
+      "level": 1,
       "week": 21,
       "weekday": 5
     },
@@ -1125,7 +1125,7 @@
     {
       "date": "2026-03-21",
       "count": 9,
-      "level": 2,
+      "level": 1,
       "week": 22,
       "weekday": 6
     },
@@ -1146,7 +1146,7 @@
     {
       "date": "2026-03-24",
       "count": 18,
-      "level": 3,
+      "level": 2,
       "week": 23,
       "weekday": 2
     },
@@ -1363,7 +1363,7 @@
     {
       "date": "2026-04-24",
       "count": 27,
-      "level": 4,
+      "level": 3,
       "week": 27,
       "weekday": 5
     },
@@ -1734,7 +1734,7 @@
     {
       "date": "2026-06-16",
       "count": 18,
-      "level": 3,
+      "level": 2,
       "week": 35,
       "weekday": 2
     },
@@ -1748,7 +1748,7 @@
     {
       "date": "2026-06-18",
       "count": 9,
-      "level": 2,
+      "level": 1,
       "week": 35,
       "weekday": 4
     },
@@ -1811,7 +1811,7 @@
     {
       "date": "2026-06-27",
       "count": 9,
-      "level": 2,
+      "level": 1,
       "week": 36,
       "weekday": 6
     },
@@ -2007,7 +2007,7 @@
     {
       "date": "2026-07-25",
       "count": 9,
-      "level": 2,
+      "level": 1,
       "week": 40,
       "weekday": 6
     },
@@ -2056,7 +2056,7 @@
     {
       "date": "2026-08-01",
       "count": 18,
-      "level": 3,
+      "level": 2,
       "week": 41,
       "weekday": 6
     },
@@ -2420,7 +2420,7 @@
     {
       "date": "2026-09-22",
       "count": 9,
-      "level": 2,
+      "level": 1,
       "week": 49,
       "weekday": 2
     },
@@ -2531,7 +2531,7 @@
     },
     {
       "date": "2026-10-08",
-      "count": 13,
+      "count": 17,
       "level": 2,
       "week": 51,
       "weekday": 4
@@ -2559,10 +2559,17 @@
     },
     {
       "date": "2026-10-12",
-      "count": 11,
+      "count": 18,
       "level": 2,
       "week": 52,
       "weekday": 1
+    },
+    {
+      "date": "2026-10-13",
+      "count": 18,
+      "level": 2,
+      "week": 52,
+      "weekday": 2
     }
   ]
 }
